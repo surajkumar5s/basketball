@@ -1,0 +1,58 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    padding: 20px;
+    color: #222;
+}
+
+.container {
+    border: 4px dashed red;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d10a0a;
+}
+
+.mj-photo {
+    width: 80%;
+    max-width: 300px;
+    border: 3px solid black;
+    margin: 20px 0;
+}
+
+.intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.quote-box {
+    background-color: #eee;
+    border-left: 6px solid red;
+    margin: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.small {
+    font-size: 12px;
+    color: #666;
+}
+
+.hover-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hover-button:hover::after {
+    content: " 🐐";
+}
